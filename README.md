@@ -25,6 +25,8 @@ Please refer to the LICENSE in the repo.
 
 ## Link to the deployed application
 
-
+[Try it now](https://jidets.github.io/JavaScript-Quizz/)
 
 ## Preview of the deployed application
+
+<img width="1718" alt="A preview of a JavaScript Quiz application" src="https://github.com/JideTS/JavaScript-Quizz/assets/20988563/158811ff-8392-48e0-8e95-10ff6b460d2b">
