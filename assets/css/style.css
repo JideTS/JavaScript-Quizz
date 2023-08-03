@@ -1,0 +1,220 @@
+/* create custom CSS variables as a primitive design system*/
+:root {
+  --dark-color: #30343D;
+  --light-color: #405CF5;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title-quiz {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  padding: 32px;
+  font-size: 100%;
+
+}
+
+h1 {
+  padding: 64px;
+  font-size: 150%;
+  color: var(--dark-color);
+}
+
+h3 {
+  color: var(--dark-color);
+}
+
+.link {
+  color: var(--light-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  font-size: 100%;
+}
+
+#introduction-article {
+  font-family: "Roboto", sans-serif;
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+  object-fit: fill;
+  color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 680px;
+}
+
+#introduction-article-feedback {
+  font-family: "Roboto", sans-serif;
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+  object-fit: fill;
+  color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 680px;
+}
+
+#score-article {
+  font-family: "Roboto", sans-serif;
+  padding: 40px;
+  text-align: center;
+  justify-content: center;
+  object-fit: fill;
+  color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 680px;
+}
+
+
+
+#introduction-section {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 1;
+  justify-content: center;
+}
+
+#introduction-feedback-section {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 1;
+  justify-content: center;
+}
+
+#name_form {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 1;
+  justify-content: center;
+}
+
+#score-section {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0 1;
+  justify-content: center;
+}
+
+#question-list {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 1;
+  justify-content: space-between;
+}
+
+#question-title {
+  padding: 0px;
+}
+
+#question-block {
+  font-family: "Roboto", sans-serif;
+  padding: 40px;
+  text-align: left;
+  justify-content: left;
+  object-fit: fill;
+  color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+}
+
+#game-introduction-paragraph {
+  font-family: "Roboto", sans-serif;
+  color: var(--dark-color);
+}
+
+#score-introduction-paragraph {
+  font-family: "Roboto", sans-serif;
+  color: var(--dark-color);
+}
+
+/* CSS from https://getcssscan.com/css-buttons-examples START*/
+
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: var(--light-color);
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 48PX 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s, box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-9:disabled {
+  cursor: default;
+}
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.question-button {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: var(--light-color);
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 32PX 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: left;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s, box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  min-width: 320px;
+  max-width: 680px;
+}
+
+.question-button:disabled {
+  cursor: default;
+}
+
+.question-button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+/* CSS from https://getcssscan.com/css-buttons-examples END*/
