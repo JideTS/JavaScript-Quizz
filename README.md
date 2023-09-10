@@ -1,3 +1,5 @@
+![Static Badge](https://img.shields.io/badge/MIT_Licence-blue)
+
 # JavaScript-Quizz
 
 
